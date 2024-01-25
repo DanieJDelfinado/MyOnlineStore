@@ -5,4 +5,19 @@ div.center{
   div.fontColor{
       
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+     color: aliceblue;
+    }
+
+     body{
+        background-color: rgb(22, 18, 18);
+     }
+     figcaption{
+         font-weight: bold;
+     }
+     ul{
+        display: inline-block;
+        text-align: left;
+     }
+     a{
+        color: aqua;
+     }
