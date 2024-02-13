@@ -1,16 +1,17 @@
-div.center{
-    text-align: center;
+:root{
+    --clr-dark: black;
+    --clr-light: rgb(78, 136, 117);
 }
-
   div.fontColor{
       
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      color: aliceblue;
     }
-
+    
      body{
-        background-color: rgb(22, 18, 18);
-     }
+      background-color: var(--clr-dark);
+      color: aliceblue;
+   }
      figcaption{
          font-weight: bold;
      }
@@ -19,5 +20,31 @@ div.center{
         text-align: left;
      }
      a{
-        color: aqua;
+      color: blueviolet;
      }
+     a:hover{
+        color: aqua;
+        font-size: 20px;
+     }
+     h1.intro::first-letter{
+         font-size: 200%;
+           color: aqua;
+     }
+   
+     .header{
+        border: solid white;
+       background-color: var(--clr-light);
+        padding: 30px;
+     }
+     .navigation{
+       background-color: azure;
+       padding: 10px;
+     }
+
+         @media screen and (max-width:600px){
+            body{
+               width: 100%;
+            }
+         }
+   
+     
