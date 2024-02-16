@@ -1,6 +1,7 @@
 :root{
     --clr-dark: black;
     --clr-light: rgb(78, 136, 117);
+    --clr-dg: #031e20;
 }
   div.fontColor{
       
@@ -9,9 +10,11 @@
     }
     
      body{
-      background-color: var(--clr-dark);
+      background: var(--clr-dg);
       color: aliceblue;
+     
    }
+  
      figcaption{
          font-weight: bold;
      }
@@ -40,11 +43,8 @@
        background-color: azure;
        padding: 10px;
      }
-
-         @media screen and (max-width:600px){
-            body{
-               width: 100%;
-            }
-         }
+ 
+     
+        
    
      
