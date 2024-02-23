@@ -35,13 +35,16 @@
      }
    
      .header{
-        border: solid white;
-       background-color: var(--clr-light);
-        padding: 30px;
-     }
+      border:  white;
+     background-color: var(--clr-light);
+      padding: 30px;
+   }
      .navigation{
        background-color: azure;
        padding: 10px;
+     }
+     .card{
+      border-color: aquamarine;
      }
  
      
